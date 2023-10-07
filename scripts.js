@@ -39,6 +39,8 @@ function agregarEmpleado() {
 
     listaEmpleados.push({...objEmpleado});
     mostrarEmpleados();
+    // Guardar la lista en el Local Storage
+    guardarEnLocalStorage(); 
     formulario.reset();
     limpiarObjeto();
 }
