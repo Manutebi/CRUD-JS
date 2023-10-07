@@ -32,8 +32,7 @@ h1{
     font-size: 1em;
 }
 
-.container-form form input,
-.container-form form button{
+.container-form form input{
     height: 2rem;
     padding: .5rem;
     margin: .5rem;
@@ -42,9 +41,21 @@ h1{
     cursor: pointer;
 }
 
-.container-form form button:hover{
+.container-form form button{
+    height: 2rem;
+    padding: .5rem;
+    margin: .5rem;
+    border-radius: .5rem;
+    border: none;
+    cursor: pointer;
     background-color: rgb(97, 192, 93);
     color: #fff;
+
+}
+
+
+.container-form form button:hover{
+    background-color: rgb(68, 168, 65);
     transition: all .5s ease;    
 }
 
@@ -69,6 +80,8 @@ h1{
     background-color: rgb(39, 189, 216);
     cursor: pointer;
     width: 5rem;
+    border-radius: .5rem;
+
 }
 
 .btn-editar:hover{
@@ -81,6 +94,8 @@ h1{
     background-color: rgb(209, 78, 78);
     cursor: pointer;
     width: 5rem;
+    border-radius: .5rem;
+
 }
 
 .btn-eliminar:hover{
